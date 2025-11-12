@@ -1,0 +1,8 @@
+{
+  "query": "arzt",
+  "location": "München",
+  "maxPages": 3,
+  "concurrency": 8,
+  "outputDir": "./data/outputs",
+  "outputFormats": "json,csv"
+}
