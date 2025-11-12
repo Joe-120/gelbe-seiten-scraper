@@ -1,0 +1,35 @@
+{
+  "name": "gelbe-seiten-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Extract verified company emails, phone numbers, addresses, reviews, and rich business details from Gelbe Seiten (Germany’s Yellow Pages).",
+  "main": "dist/runner.cjs",
+  "scripts": {
+    "dev": "tsx src/runner.ts",
+    "start": "node --enable-source-maps dist/runner.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "json2csv": "^6.0.0",
+    "p-limit": "^5.0.0",
+    "pino": "^9.4.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
