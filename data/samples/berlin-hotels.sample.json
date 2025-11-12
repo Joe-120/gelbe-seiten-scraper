@@ -1,0 +1,83 @@
+[
+  {
+    "id": "gs_987654321",
+    "memberId": "M-12345",
+    "name": "Hotel Berlin Mitte",
+    "logoURL": "https://example.de/logo.png",
+    "bestIndustry": "Hotel",
+    "googleMapsAddress": "Chausseestraße 10, 10115 Berlin",
+    "address": "Chausseestraße 10, 10115 Berlin",
+    "phone": "+49 30 123456",
+    "website": "https://hotel-berlin-mitte.de",
+    "shortDescription": "Zentrales Stadthotel mit Frühstück",
+    "highlightLevel": 2,
+    "partnerLevel": "premium",
+    "rating": 4.4,
+    "ratingCount": 128,
+    "email": "info@hotel-berlin-mitte.de",
+    "openingHours": [
+      { "day": "Mon", "hours": [ { "closed": false, "from": "00:00", "to": "24:00" } ] }
+    ],
+    "additionalPhoneNumbers": [
+      { "title": "Reservierung", "number": "+49 30 654321" }
+    ],
+    "menu": null,
+    "reviews": [
+      {
+        "text": "Sehr zentral, freundliches Personal.",
+        "erstellungsDatumIso": "2024-10-12T09:10:00.000Z",
+        "erstellungsDatumFormatiert": "12.10.2024",
+        "bewertungBeiAnbieter": 5,
+        "bewertungNormiert": 4.5,
+        "anzahlKommentare": 0,
+        "bewertungTextAnzahl": 1,
+        "erstellungsDatum": "2024-10-12T09:10:00.000Z",
+        "benutzer": { "name": "Lena" },
+        "titel": "Top Lage"
+      }
+    ],
+    "description": "Komfortable Zimmer nahe Hbf, kostenloses WLAN.",
+    "acceptedPaymentMethods": ["EC-Karte", "Visa", "Mastercard"],
+    "images": [
+      { "src": "https://example.de/room.jpg", "caption": "Doppelzimmer" }
+    ],
+    "socialAccounts": [
+      { "url": "https://www.instagram.com/hotelberlinmitte", "type": "instagram" }
+    ],
+    "brochure": null,
+    "openPositions": [],
+    "faq": [
+      { "question": "Gibt es Parkplätze?", "answer": "Ja, Tiefgarage vorhanden." }
+    ],
+    "industries": ["Hotel", "Tourismus"],
+    "services": ["Frühstück", "WLAN", "24h-Rezeption"],
+    "extraInfo": { "languages": ["DE", "EN"], "accessibility": ["Aufzug"] },
+    "bookingInfo": {
+      "images": [
+        "https://example.de/b1.jpg",
+        "https://example.de/b2.jpg"
+      ],
+      "score": 8.7,
+      "description": "Beliebte Lage, saubere Zimmer.",
+      "services": ["Zimmerservice", "WLAN", "Parken"],
+      "general": ["Nichtraucherzimmer"]
+    },
+    "relatedIds": ["gs_987654322", "gs_987654323"]
+  },
+  {
+    "id": "gs_987654324",
+    "name": "Pension am Park",
+    "address": "Parkstraße 5, 10117 Berlin",
+    "phone": "+49 30 222333",
+    "website": "https://pension-am-park.de",
+    "rating": 4.1,
+    "ratingCount": 64,
+    "email": "kontakt@pension-am-park.de",
+    "reviews": [
+      { "text": "Ruhig gelegen.", "bewertungNormiert": 4.0 }
+    ],
+    "industries": ["Hotel"],
+    "services": ["Frühstück", "Haustiere erlaubt"],
+    "bookingInfo": null
+  }
+]
