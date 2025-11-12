@@ -1,0 +1,8 @@
+{
+  "query": "hotel",
+  "location": "Berlin",
+  "maxPages": 2,
+  "concurrency": 5,
+  "outputDir": "./data/outputs",
+  "outputFormats": "json,csv,xlsx"
+}
