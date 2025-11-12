@@ -1,0 +1,8 @@
+# Build
+RUN npm run build
+
+# Default envs (override with -e or .env file)
+ENV NODE_ENV=production
+ENV OUTPUT_DIR=/app/data/outputs
+
+CMD ["node", "dist/runner.js"]
